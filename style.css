@@ -18,7 +18,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    width: 45%;
+    width: 35%;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -62,3 +62,42 @@ h1 {
 #credits a {
     color: white;
 }
+
+.form {
+    width: 65%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1em;
+}
+
+.para {
+    max-inline-size: 53ch;
+    padding-left: 50px;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+form {
+    margin-top: 50px;
+    background-color: white;
+    width: 100%;
+    box-shadow: 5px 5px 10px lightgray;  
+    padding-left: 50px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+span {
+    font-size: 10%;
+    font-weight: 400;
+    color: dimgray;
+}
+
+input {
+    border: 1px solid #dcdcdd;
+    border-radius: 2px;
+   }
