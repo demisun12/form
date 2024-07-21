@@ -10,6 +10,15 @@
 
 body {
     display: flex;
-    height: 100vh;
     background: whitesmoke;
 }
+
+.title {
+    background-image: url(Assets/flowers.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 45%;
+    height: 100vh;
+}
+
